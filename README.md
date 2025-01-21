@@ -8,7 +8,23 @@ Authors:
 * Djedovic Mustafa
 * Saborosch Philipp
 
+# Results
+![](https://github.com/khokhlovamariia/Approximate-Inductive-Miner-Replication/blob/main/results/fitness_comparison_barplot.png)
+![](https://github.com/khokhlovamariia/Approximate-Inductive-Miner-Replication/blob/main/results/precision_comparison_barplot.png)
+![](https://github.com/khokhlovamariia/Approximate-Inductive-Miner-Replication/blob/main/results/size_comparison_barplot.png)
+
 # Usage
+## Repo structure
+* data/: Contains the input event logs in a compressed .zip archive.
+* src/: Contains the source code for AIM and evaluating process models.
+* results/: Stores the generated results, such as evaluation metrics and visualizations.
+
+## Generating Results
+After running the main script:
+* Processed results (evaluation metrics like precision, fitness, and model size) are saved in the results/ folder.
+* Visualizations (difference plots, bar charts) are also saved in results/.
+* Event logs are extracted to data/. 
+
 
 # Acknowledgement of sources
 1. van Dongen, Boudewijn (2012): BPI Challenge 2012. Version 1. 4TU.ResearchData. dataset. https://doi.org/10.4121/uuid:3926db30-f712-4394-aebc-75976070e91f
